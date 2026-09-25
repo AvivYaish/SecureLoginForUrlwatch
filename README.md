@@ -1,8 +1,8 @@
 # SecureLoginForUrlwatch
-Encrypted sessions and browser capture for urlwatch.
+Encrypted sessions and browser capture for [urlwatch](https://github.com/thp/urlwatch).
 Useful if you want to watch pages that require logging-in, e.g., the "Who's viewed your profile" page on LinkedIn.
 
-Sample usage:
+Sample urlwatch job:
 ```yaml
 name: LinkedInProfileViews
 command: "python -X utf8 Playwright.py https://www.linkedin.com/analytics/profile-views/ --wait-for \"text=/^Viewed .+ ago$/\""
