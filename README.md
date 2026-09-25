@@ -1,6 +1,7 @@
 # SecureLoginForUrlwatch
 Encrypted sessions and browser capture for [urlwatch](https://github.com/thp/urlwatch).
 Useful if you want to watch pages that require logging-in, e.g., the "Who's viewed your profile" page on LinkedIn.
+Instead of manually exporting cookies for urlwatch to use, this script opens up a browser for you to login, and saves the session cookies securely.
 
 Sample urlwatch job:
 ```yaml
